@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* padding: 10px; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+   
+}
+.links > *{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #343a40;
+    font-size: 16px;
+}
+.btns > *{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
