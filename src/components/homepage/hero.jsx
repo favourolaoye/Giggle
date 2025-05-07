@@ -40,7 +40,7 @@ export default function Hero() {
           <div className="bg-[#E7F0FA] p-5 rounded-sm">
             <BriefcaseBusiness className='w-10 h-10 text-primary'/>
           </div>
-          <div className=''>
+          <div className='grid gap-1.5'>
             <h3 className='font-medium text-gray-900 text-2xl'>175,324</h3>
             <p className='text-gray-500 text-base font-normal'>Live Job</p>
           </div>
@@ -49,7 +49,7 @@ export default function Hero() {
           <div className="bg-primary p-5 rounded-sm">
             <Building2 className='w-10 h-10 text-white'/>
           </div>
-          <div className=''>
+          <div className='grid gap-1.5'>
             <h3 className='font-medium text-gray-900 text-2xl'>97,354</h3>
             <p className='text-gray-500 text-base font-normal'>Companies</p>
           </div>
@@ -58,7 +58,7 @@ export default function Hero() {
           <div className="bg-[#E7F0FA] p-5 rounded-sm">
             <UsersRound className='w-10 h-10 text-primary'/>
           </div>
-          <div className=''>
+          <div className='grid gap-1.5'>
             <h3 className='font-medium text-gray-900 text-2xl'>3,847,154</h3>
             <p className='text-gray-500 text-base font-normal'>Candidates</p>
           </div>
@@ -67,9 +67,9 @@ export default function Hero() {
           <div className="bg-[#E7F0FA] p-5 rounded-sm">
             <BriefcaseBusiness className='w-10 h-10 text-primary'/>
           </div>
-          <div className=''>
+          <div className='grid gap-1.5'>
             <h3 className='font-medium text-gray-900 text-2xl'>7,532</h3>
-            <p className='text-gray-500 text-base font-normal'>New Job</p>
+            <p className='text-gray-500 text-base font-normal'>New Jobs</p>
           </div>
         </div>  
       </div>
