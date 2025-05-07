@@ -4,9 +4,9 @@ import { Search, MapPin, BriefcaseBusiness, Building2,UsersRound } from 'lucide-
 export default function Hero() {
   return (
     <div className='bg-lightGray py-32 px-5pct'>
-      <div className='flex justify-between'>
+      <div className='flex justify-between py-[50px]'>
         <div className="left">
-          <h1 className='font-medium text-[56px]'>
+          <h1 className='font-medium text-[60px]'>
             Find a job that suits 
           </h1>
           <h1 className='font-medium text-[56px] -mt-5'>
@@ -29,7 +29,7 @@ export default function Hero() {
             </div>
             <button className='text-white bg-primary py-4 px-8 rounded-sm cursor-pointer'>Find Job</button>
           </div>
-          <p className='text-sm text-gray-700'><span className='text-gray'>Suggestion:</span> Designer, Programming, <span className='text-primary'>Digital Marketing,</span>  Video, Animation</p>
+          <p className='text-base text-gray-700'><span className='text-gray'>Suggestion:</span> Designer, Programming, <span className='text-blue-500'>Digital Marketing,</span>  Video, Animation</p>
         </div>
         <div className="right">
           <img src={heroPic} alt="" />
