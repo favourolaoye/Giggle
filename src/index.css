@@ -1,4 +1,13 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+    --font-inter: Inter, sans-serif;
+    --color-lightGray: #F1F2F499;
+    --color-gray: #5E6670;
+    --color-primary: #0A65CC;
+  }
 
 :root{
     --primary-color: black;
@@ -12,4 +21,8 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
+}
+
+.px-5pct{
+    padding: 5%;
 }
