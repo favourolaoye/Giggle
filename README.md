@@ -1,10 +1,10 @@
-# Jobly — Job Listing Web Application
+# Giggle — Job Listing Web Application
 
 Jobly is a modern job listing platform designed to connect job seekers with companies efficiently. Whether you're looking for full-time roles, freelance gigs, or internships, Jobly provides a streamlined experience for finding and posting jobs.
 
 ## 🌐 Live Demo
 
-[Visit Jobly](https://your-live-site-link.com)
+[Visit Giggle](https://your-live-site-link.com)
 
 ## 🚀 Features
 
@@ -35,8 +35,8 @@ Jobly is a modern job listing platform designed to connect job seekers with comp
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/jobly.git
-cd jobly
+git clone https://github.com/your-username/Giggle.git
+cd Giggle
 
 # Install dependencies
 npm install
