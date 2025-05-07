@@ -14,8 +14,14 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: var(--font-main);
+  overflow-x: hidden;
 }
 
 .px-5pct {
   padding: 5%;
+}
+
+.swiper{
+  width: 1000px;
+  height: 300px;
 }
