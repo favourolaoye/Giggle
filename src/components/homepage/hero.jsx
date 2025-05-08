@@ -4,7 +4,7 @@ import { Search, MapPin, BriefcaseBusiness, Building2,UsersRound } from 'lucide-
 export default function Hero() {
   return (
     <div className='bg-lightGray py-32 px-5pct'>
-      <div className='flex justify-between py-[50px]'>
+      <div className='flex justify-between py-[50px] sm:flex-col sm:gap-10 flex-wrap'>
         <div className="left">
           <h1 className='font-medium text-[60px]'>
             Find a job that suits 
@@ -35,7 +35,7 @@ export default function Hero() {
           <img src={heroPic} alt="" />
         </div>
       </div>
-      <div className='flex gap-4 mt-28'>
+      <div className='flex gap-4 mt-28 flex-wrap'>
         <div className='flex-1 flex bg-white rounded-lg p-5 gap-5 items-center'>
           <div className="bg-[#E7F0FA] p-5 rounded-sm">
             <BriefcaseBusiness className='w-10 h-10 text-primary'/>
