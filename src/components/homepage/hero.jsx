@@ -4,9 +4,9 @@ import { Search, MapPin, BriefcaseBusiness, Building2,UsersRound } from 'lucide-
 export default function Hero() {
   return (
     <div className='bg-lightGray py-32 px-5pct'>
-      <div className='flex justify-between py-[50px] sm:flex-col sm:gap-10 flex-wrap'>
+      <div className='flex flex-col gap-10 md:flex-row md:justify-between'>
         <div className="left">
-          <h1 className='font-medium text-[60px]'>
+          <h1 className='font-medium text-[56px]'>
             Find a job that suits 
           </h1>
           <h1 className='font-medium text-[56px] -mt-5'>
