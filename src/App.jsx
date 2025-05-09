@@ -5,7 +5,8 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Notfound from './pages/not-found';
 import Navbar from './components/utils/navbar';
-import Listing from './pages/listing';
+import Jobs from './pages/jobs';
+
 export default function App() {
   return (
     <div>
@@ -15,8 +16,9 @@ export default function App() {
         <Route path="/" element={<Homepage/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/jobs" element={<Listing/>}/>
+        <Route path="/jobs" element={<Jobs/>}/>
         <Route path="*" element={<Notfound/>} />
+        
       </Routes>
       </div>
 
