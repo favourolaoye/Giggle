@@ -14,7 +14,7 @@ export default function Navbar() {
         {id: 2, name: "About", path: "/about" },
         {id: 3, name: "Contact", path: "/contact" },
         {id: 4, name: "Login", path: "/auth" },
-        {id: 5, name: "Sign Up", path: "/auth" },
+        {id: 5, name: "Sign up", path: "/auth" },
     ]
 
     return (
@@ -29,7 +29,7 @@ export default function Navbar() {
                 {/* Desktop Nav Links */}
                 <div className="hidden md:flex gap-6 items-center">
                    {links.map((link) => (
-                        <Link key={link.id} to={link.path} className="text-base hover:text-blue-500 hover:font-semibold">
+                        <Link key={link.id} to={link.path} className="text-[14px] hover:text-blue-500 hover:font-semibold">
                             {link.name}
                         </Link>
                     ))
