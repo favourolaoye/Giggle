@@ -1,5 +1,5 @@
 import heroPic from '../../assets/heroPic.png'
-import { Search, MapPin, BriefcaseBusiness, Building2,UsersRound } from 'lucide-react';
+import { Search, MapPin, BriefcaseBusiness, Building2, UsersRound } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -46,8 +46,8 @@ export default function Hero() {
           </div>
         </div>
         <div className='flex-1 flex bg-white rounded-lg p-5 gap-5 items-center'>
-          <div className="bg-primary p-5 rounded-sm">
-            <Building2 className='w-10 h-10 text-white'/>
+        <div className="bg-[#E7F0FA] p-5 rounded-sm">
+            <Building2 className='w-10 h-10 text-primary'/>
           </div>
           <div className='grid gap-1.5'>
             <h3 className='font-medium text-gray-900 text-2xl'>97,354</h3>

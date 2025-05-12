@@ -13,8 +13,8 @@ export default function Navbar() {
         {id: 1, name: "Home", path: "/" },
         {id: 2, name: "About", path: "/about" },
         {id: 3, name: "Contact", path: "/contact" },
-        {id: 4, name: "Login", path: "/auth" },
-        {id: 5, name: "Sign up", path: "/auth" },
+        {id: 4, name: "Login", path: "/login" },
+        {id: 5, name: "Sign Up", path: "/signup" },
     ]
 
     return (
@@ -29,7 +29,7 @@ export default function Navbar() {
                 {/* Desktop Nav Links */}
                 <div className="hidden md:flex gap-6 items-center">
                    {links.map((link) => (
-                        <Link key={link.id} to={link.path} className="text-[14px] hover:text-blue-500 hover:font-semibold">
+                        <Link key={link.id} to={link.path} className="text-base hover:text-blue-500 hover:font-semibold">
                             {link.name}
                         </Link>
                     ))
@@ -39,8 +39,8 @@ export default function Navbar() {
 
                 {/* Auth Buttons (Desktop) */}
                 <div className="hidden md:flex gap-4">
-                    <Link to="/auth" className="bg-white text-blue-500 border border-blue-500 px-6 py-2 rounded-lg text-center">Login</Link>
-                    <Link to="/auth" className="bg-blue-500 text-white px-6 py-2 rounded-lg text-center">Sign Up</Link>
+                    <Link to="/login" className="bg-white text-blue-500 border border-blue-500 px-6 py-2 rounded-lg text-center">Login</Link>
+                    <Link to="/signup" className="bg-blue-500 text-white px-6 py-2 rounded-lg text-center">Sign Up</Link>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -57,8 +57,8 @@ export default function Navbar() {
                     <Link to="/" className="text-base font-semibold hover:text-blue-500">Home</Link>
                     <Link to="/about" className="text-base hover:text-blue-500">About</Link>
                     <Link to="/contact" className="text-base hover:text-blue-500">Contact</Link>
-                    <Link to="/auth" className="bg-white text-blue-500 border border-blue-500 px-6 py-2 rounded-lg text-center">Login</Link>
-                    <Link to="/auth" className="bg-blue-500 text-white px-6 py-2 rounded-lg text-center">Sign Up</Link>
+                    <Link to="/login" className="bg-white text-blue-500 border border-blue-500 px-6 py-2 rounded-lg text-center">Login</Link>
+                    <Link to="/signup" className="bg-blue-500 text-white px-6 py-2 rounded-lg text-center">Sign Up</Link>
                 </div>
             )}
         </div>
