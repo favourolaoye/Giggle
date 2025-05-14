@@ -8,14 +8,16 @@ import Navbar from './components/utils/navbar';
 import Jobs from './pages/jobs';
 import Login from './auth/login';
 import ForgetPassword from './auth/forget-password';
+import EmailVerify from './auth/EmailVerify'
 import SignUp from './auth/signup';
+
 
 
 export default function App() {
   const location = useLocation();
 
   // List of routes where Navbar should be hidden
-  const hideNavbarRoutes = ['/login', '/signup', "/forgot-password"];
+  const hideNavbarRoutes = ['/login', '/signup', '/forgot-password', '/email-verify'];
   const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
 
   return (
@@ -29,6 +31,7 @@ export default function App() {
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/forgot-password" element={<ForgetPassword />} />
+          <Route path="/email-verify" element={<EmailVerify />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
