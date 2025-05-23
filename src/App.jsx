@@ -8,8 +8,16 @@ import Navbar from './components/utils/navbar';
 import Jobs from './pages/jobs';
 import Login from './auth/login';
 import ForgetPassword from './auth/forget-password';
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+// import SignUp from './auth/';
+=======
+>>>>>>> Stashed changes
 import EmailVerify from './auth/EmailVerify'
 import SignUp from './auth/signup';
+>>>>>>> e4e8594d4754c7193b46fcb633b3182447b19a1a
+
 
 
 
@@ -31,8 +39,15 @@ export default function App() {
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/forgot-password" element={<ForgetPassword />} />
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+          {/* <Route path="/signup" element={<SignUp />} /> */}
+=======
+>>>>>>> Stashed changes
           <Route path="/email-verify" element={<EmailVerify />} />
           <Route path="/signup" element={<SignUp />} />
+>>>>>>> e4e8594d4754c7193b46fcb633b3182447b19a1a
           <Route path="*" element={<Notfound />} />
         </Routes>
       </div>
