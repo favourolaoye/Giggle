@@ -9,6 +9,12 @@ import Jobs from './pages/jobs';
 import Login from './auth/login';
 import ForgetPassword from './auth/forget-password';
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+// import SignUp from './auth/';
+=======
+>>>>>>> Stashed changes
 =======
 <<<<<<< HEAD
 // import SignUp from './auth/';
@@ -18,7 +24,10 @@ import EmailVerify from './auth/EmailVerify'
 import SignUp from './auth/signup';
 >>>>>>> e4e8594d4754c7193b46fcb633b3182447b19a1a
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 
 export default function App() {
@@ -40,6 +49,12 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/forgot-password" element={<ForgetPassword />} />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+          {/* <Route path="/signup" element={<SignUp />} /> */}
+=======
+>>>>>>> Stashed changes
 =======
 <<<<<<< HEAD
           {/* <Route path="/signup" element={<SignUp />} /> */}
